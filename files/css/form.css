@@ -1,0 +1,44 @@
+body{
+    height: 100%;
+    color: #1042cc;
+    background-size: cover;
+    background-image:
+    url('https://64.media.tumblr.com/f0bde6223d6e288d84ef67d2a476cb53/tumblr_pcsiobznif1xyk33po1_500.gifv');
+}
+.form-content{
+    font-family: "Poppins", sans-serif !important;
+}
+
+.content{
+    margin: 20px;
+}
+
+.content input{
+        margin-bottom: 40px !important;
+}
+
+.btn{
+    float: right;
+}
+
+h3{
+    font-family: "Poppins", sans-serif !important;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #f0f8f8;
+}
+
+.active .bs-stepper-circle{
+    background-color: #f759f7 !important;
+}
+
+.btn-primary{
+    background-color: #79069c !important;
+    border-color: #ce02f7 !important;
+}
+
+.back{
+    margin-right: 23px;
+    background-color: #f06afc !important;
+    border-color: #e46afc !important;
+}

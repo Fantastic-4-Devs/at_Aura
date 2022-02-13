@@ -1,0 +1,249 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+/* Navbar Code */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  li {
+    float: left;
+  }
+
+  
+  li a {
+    display: block;
+    color: #062766;
+    text-align: center;
+    padding: 5px 14px;
+    text-decoration: none;
+  }
+
+  a .active {
+    padding-bottom: 3px;
+  }
+  
+  
+  .banner {
+    background-color: #f701f7;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+    /* Cards Code */
+
+  .cards .card {
+    transition: all .3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    width: 20%;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+  }
+
+  .cards{
+      display: flex;
+      margin: auto;
+      margin-top: 3rem;
+      justify-content: space-around;
+  }
+
+  .card .emoji{
+      font-size: 5rem;
+      margin: 10px;
+  }
+
+  .card:hover{
+      cursor: pointer;
+      transform: scale(1.05);
+      box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  }
+
+  .orange{
+    background: linear-gradient(148.8deg, rgba(247, 134, 1, 0.72) 18.69%, rgba(244, 220, 4, 0.54) 95.21%);
+  }
+
+  .blue{
+    background: linear-gradient(148.62deg, #0155F7 5.38%, rgba(1, 144, 247, 0.71) 100%);
+  }
+
+  .green{
+    background: linear-gradient(148.86deg, #3DBF1D 3.45%, rgba(187, 235, 51, 0.75) 100%);
+  }
+
+  .red{
+    background: linear-gradient(148.14deg, rgba(247, 1, 1, 0.71) 4.39%, rgba(247, 134, 1, 0.41) 100%);
+  }
+
+  .card .subtitle{
+    font-weight: 700;
+    color: white;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+.homepage{
+    text-align: center;
+    color: black;
+}
+
+.exam-button{
+    color: #FFFFFF;
+    background: #d607e9;
+    border-radius: 10px;
+    transition: background 1s;
+    height: 3rem;
+    width: 15rem;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.exam-button:hover{
+    cursor: pointer;
+    background: #f78ef7;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.button{
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+
+.Logo{
+    text-align: left;
+}
+.happy {
+    background-color: yellow;
+    width: 200px;
+    height: 50px;
+}
+
+.sad {
+    background-color: blue;
+    width: 200px;
+    height: 50px;
+}
+
+
+.angry {
+    background-color: red;
+    width: 200px;
+    height: 50px;
+}
+
+.neutral {
+    background-color: green;
+    width: 200px;
+    height: 50px;
+}
+
+     
+.column {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.column1 {
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.divide{
+    padding: 2px;
+    margin: 2px;
+}
+
+.msg-icn {
+  display: inline-block;
+  position: relative;
+  padding:  10px 20px;
+  color: rgb(23, 4, 58);
+  box-sizing: border-box;
+  max-width: 300px;
+  min-width: 100px;
+  min-height: 50px;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+}
+.msg-icn:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border: 8px solid #028ae5;
+  border-radius: 2px;
+  box-sizing: border-box;
+  clip-path: polygon(0% 105%, 0% 0%, 105% 0%, 105% 105%, 43px 105%, 43px 80%, 21px 80%, 21px 105%);
+}
+.msg-icn:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 25px;
+  height: 20px;
+  background: #024ae5;
+  top: calc(100% - 1px);
+  left: 20px;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 0% 100%, 100% 0%, calc(100% - 2px) 0, 1px calc(100% - 2px), 1px 0);
+}
+.title{
+    color: #380d70;
+    font-size: 2.5rem;
+}
+.change{
+    color: rgb(132, 0, 255);
+}
+h1 {
+  /* margin: 20px; */
+  font-family: "Paytone One", Helvetica, sans-serif;
+  color: #202020;
+  text-transform: uppercase;
+  letter-spacing: -2px;  
+}
+
+h1 span {
+  display: block;
+  margin: 11px 0 17px 0;
+  font-size: 80px;
+  line-height: 80px;
+  color: #faf8fc;
+  text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+  letter-spacing: -4px;
+}
